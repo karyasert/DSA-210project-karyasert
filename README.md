@@ -1,89 +1,111 @@
-# DSA-210project-karyasert
 # Yoga & Pilates Study Performance Analysis
 
-## **Project Idea**
-In this project, I will analyze how **yoga and pilates impact my study productivity and academic performance**. By tracking **exercise type, duration, intensity, and timing**, I will determine whether specific workout patterns improve **focus, study efficiency, and academic success**. 
+## **Project Overview**
+Over the next few weeks, I will analyze how **yoga and pilates impact my study productivity and academic performance**. By tracking **exercise type, duration, intensity, and timing**, I aim to determine whether specific workout patterns improve **focus, study efficiency, and academic success**.
 
-I aim to understand how **regular exercise influences learning outcomes** and whether adjusting my fitness routine can lead to better academic performance. 
-
----
-
-## **Description of Dataset**
-I will collect daily data for several weeks, logging:
-
-- **Exercise Type:** Yoga or Pilates
-- **Exercise Duration:** Minutes spent per session
-- **Exercise Intensity:** Low, Medium, High
-- **Time of Day:** Morning, Afternoon, or Evening session
-- **Study Hours:** Total hours studied that day
-- **Focus Level (1-10):** Self-reported concentration rating
-- **Academic Performance (1-10):** Self-measurments of exam scores, assignment results, or GPA over time
-
-|
-
-### **Additional Factors to Track**
-- **Study session timing:** Morning, afternoon, or evening
-- **Focus levels before & after workouts:** To measure immediate cognitive benefits
-- **Academic performance trends:** Long-term tracking of GPA or test scores
+Using data visualization and statistical tools, I will explore patterns and test whether incorporating structured workout routines leads to **better academic outcomes**. Ultimately, I hope this project provides actionable insights for optimizing study habits through exercise.
 
 ---
 
-## **Plan**
-### **📌 Data Collection**
-Data will be collected daily while ensuring:
-- **Consistent study environment** to reduce external influences.
-- **Standardized self-reporting** of focus and study productivity.
-- **Accurate exercise tracking** for intensity and duration.
+## **Objectives**
+1. **Understand Exercise-Study Connection**  
+   Explore how different types of workouts affect study habits and academic performance.
 
-### **📊 Data Preparation & Analysis**
-At the end of the study period:
-1. **Data Cleaning:**
-   - Convert text-based categories into numerical labels.
-   - Remove inconsistencies in self-reported data.
-2. **Exploratory Data Analysis (EDA):**
-   - Identify trends using visualization techniques (scatter plots, heatmaps, line charts).
-   - Compare **exercise vs. non-exercise days**.
-3. **Statistical & Correlation Analysis:**
-   - Assess **relationship between exercise and study performance**.
-   - Test for statistical significance using regression models.
-4. **Predictive Modeling:**
-   - Train a **regression model** to predict **study performance based on workout habits**.
-   - Use clustering techniques to find **optimal exercise patterns** for learning efficiency.
+2. **Identify Key Performance Factors**  
+   Pinpoint which exercise variables (intensity, duration, timing) have the strongest impact on focus and study efficiency.
+
+3. **Data-Driven Study Optimization**  
+   Use insights from the analysis to fine-tune my daily habits and improve academic performance.
+
+4. **Apply Data Science Skills**  
+   Implement data collection, visualization, and machine learning techniques to uncover meaningful trends.
 
 ---
 
-## **Hypothesis**
-- **Null Hypothesis (H₀):** Yoga and pilates have no significant effect on study productivity and academic performance.
-- **Alternative Hypothesis (H₁):** Yoga and pilates significantly improve study efficiency and academic performance.
+## **Motivation**
+This project combines two essential aspects of my life: **fitness and academics**. Here’s why it matters:
+
+- **Personal Growth**  
+  Understanding how my physical activity affects study efficiency can help me build better long-term habits.
+  
+- **Scientific Approach**  
+  I want to base my learning strategies on **data, not assumptions**. This project allows me to apply a structured approach to study performance optimization.
+  
+- **Practical Application**  
+  This is a chance to apply **data science techniques** to a real-world personal problem, making the learning process more hands-on.
+  
+- **Long-Term Impact**  
+  The findings won’t just improve my current academic performance—they could help shape better productivity strategies beyond school.
 
 ---
 
-## **Tools & Technologies**
-- **Python (Pandas, NumPy, Matplotlib, Seaborn)** for data processing & visualization.
-- **Scikit-learn** for machine learning models.
-- **NLTK/SpaCy** for sentiment analysis (if analyzing study notes).
-- **Jupyter Notebook** for data analysis & documentation.
+## **Dataset**
+The dataset for this project consists of several weeks of daily records. Here’s what I’ll be tracking:
+
+- **Date**: The specific day of the record  
+- **Exercise Type**: Yoga or Pilates  
+- **Duration**: Total time spent per session (minutes)  
+- **Intensity**: Low, Medium, or High  
+- **Time of Day**: When the exercise occurred (Morning, Afternoon, Evening)  
+- **Study Hours**: Total time spent studying that day  
+- **Focus Level (1-10)**: Self-rated concentration level  
+- **Academic Performance (%)**: Grades from assignments, tests, or self-assessed progress  
+
+I will log all of this data consistently, ensuring accurate and structured tracking. Outliers due to illness, distractions, or major schedule changes will be flagged for review.
 
 ---
 
-## **Findings & Expected Insights**
-By analyzing this dataset, I expect to:
-- Identify whether **yoga and pilates improve study efficiency**.
-- Determine the **best time of day for exercise to maximize learning**.
-- Predict **how workouts impact academic performance over time**.
-- Suggest an **optimal fitness routine for better focus & grades**.
+## **Tools and Technologies**
+I will use the following tools for data analysis and visualization:
+
+- **Python**: For data cleaning and statistical analysis  
+- **Pandas**: To manipulate and preprocess data  
+- **Matplotlib and Seaborn**: For creating visualizations (scatter plots, heatmaps, time series)  
+- **SciPy**: For hypothesis testing and regression analysis  
 
 ---
 
+## **Analysis Plan**
 
+### **1. Data Collection**  
+   - Import daily records into a Pandas DataFrame and preprocess the data by handling missing values and standardizing numerical features.  
+
+### **2. Visualization**  
+   - Use scatter plots, heatmaps, and time series plots to explore relationships between variables.  
+   - Example analyses:
+     - Scatter plot of study hours vs. academic performance  
+     - Heatmap showing correlations between exercise, study time, and grades  
+     - Time series analysis of performance trends over multiple weeks  
+
+### **3. Hypothesis Testing**  
+   - Test hypotheses such as:  
+     - **H₀**: Exercise has no significant effect on study productivity and academic performance.  
+     - **H₁**: Yoga or pilates significantly improve study efficiency and academic performance.  
+   - Use regression models to analyze the strongest predictors of improvement.
+
+### **4. Trend Analysis**  
+   - Investigate patterns in study performance over time, identifying peaks or declines in efficiency.
+   - Assess how study habits change on workout vs. non-workout days.
+
+---
+
+## **Example Analysis**
+To illustrate, I’ll create a scatter plot to visualize the relationship between **exercise intensity and focus levels**. The x-axis will represent exercise intensity (Low, Medium, High), while the y-axis will show self-rated focus levels (1-10). If a clear upward trend appears, it might suggest that more intense workouts help sustain better concentration.
+
+Another example involves comparing performance on **exercise days vs. non-exercise days**. This could reveal whether working out before studying leads to increased focus and productivity.
+
+Similarly, I’ll look at **time-of-day trends**—does exercising in the morning vs. evening impact study effectiveness differently? 
+
+---
 
 ## **Conclusion**
-This project aims to answer:
-- **Does yoga or pilates improve my study efficiency and academic performance?**
-- **Is there an optimal time of day to work out for maximum learning benefits?**
-- **How do focus levels change with different workout intensities?**
-- **Can a data-driven approach help optimize study habits?**
+By the end of this project, I hope to answer the following questions:
 
-By leveraging data science, this project will provide **insights into the role of exercise in academic success**, helping me (and potentially others) improve study habits using fitness strategies.
+- Does **yoga or pilates improve study efficiency and academic performance?**  
+- What is the **optimal workout timing** for the best learning outcomes?  
+- Can I **predict academic performance based on exercise habits?**  
+- How do **focus levels change with different workout intensities?**  
 
+This project isn’t just about improving my study routine—it’s about leveraging data science to develop an **evidence-based approach to learning and fitness**.
 
+---
