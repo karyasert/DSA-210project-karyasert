@@ -23,19 +23,19 @@ Using data visualization and statistical tools, I will explore patterns and test
 ---
 
 ## **Motivation**
-This project combines two essential aspects of my life: **fitness and academics**. Here’s why it matters:
+This project combines two essential aspects of my life: **yoga,pilates and academics**.Over the years I skipped exercising in order to buy some time to study and focus.I am aiming to prove this wrong by doing yoga and pilates regularly. Here’s why it matters:
 
 - **Personal Growth**  
-  Understanding how my physical activity affects study efficiency can help me build better long-term habits.
+  Understanding how my physical activity affects study efficiency can help me build better long-term habits without hesitation.
   
 - **Scientific Approach**  
-  I want to base my learning strategies on **data, not assumptions**. This project allows me to apply a structured approach to study performance optimization.
+  This project allows me to apply a structured approach to study performance optimization which can be a proof of the impacts of yoga and pilates.
   
 - **Practical Application**  
-  This is a chance to apply **data science techniques** to a real-world personal problem, making the learning process more hands-on.
+  This is a chance to apply **data science techniques** to a real-world personal problem, making the learning process more hands-on.Moreover ,I will make sure I will workout at least once a day in order to collect data constantly .
   
 - **Long-Term Impact**  
-  The findings won’t just improve my current academic performance—they could help shape better productivity strategies beyond school.
+  Most of the time we skip exercising in order to win some time to study.However, I want to analyse if winning some time actually means anything over skipping to exercise.
 
 ---
 
@@ -49,45 +49,12 @@ The dataset for this project consists of several weeks of daily records. Here’
 - **Time of Day**: When the exercise occurred (Morning, Afternoon, Evening)  
 - **Study Hours**: Total time spent studying that day  
 - **Focus Level (1-10)**: Self-rated concentration level  
-- **Academic Performance (%)**: Grades from assignments, tests, or self-assessed progress  
+- **Academic Performance (1-10)**: Grades from assignments, tests, or self-assessed progress  
 
 I will log all of this data consistently, ensuring accurate and structured tracking. Outliers due to illness, distractions, or major schedule changes will be flagged for review.
 
 ---
 
-## **Tools and Technologies**
-I will use the following tools for data analysis and visualization:
-
-- **Python**: For data cleaning and statistical analysis  
-- **Pandas**: To manipulate and preprocess data  
-- **Matplotlib and Seaborn**: For creating visualizations (scatter plots, heatmaps, time series)  
-- **SciPy**: For hypothesis testing and regression analysis  
-
----
-
-## **Analysis Plan**
-
-### **1. Data Collection**  
-   - Import daily records into a Pandas DataFrame and preprocess the data by handling missing values and standardizing numerical features.  
-
-### **2. Visualization**  
-   - Use scatter plots, heatmaps, and time series plots to explore relationships between variables.  
-   - Example analyses:
-     - Scatter plot of study hours vs. academic performance  
-     - Heatmap showing correlations between exercise, study time, and grades  
-     - Time series analysis of performance trends over multiple weeks  
-
-### **3. Hypothesis Testing**  
-   - Test hypotheses such as:  
-     - **H₀**: Exercise has no significant effect on study productivity and academic performance.  
-     - **H₁**: Yoga or pilates significantly improve study efficiency and academic performance.  
-   - Use regression models to analyze the strongest predictors of improvement.
-
-### **4. Trend Analysis**  
-   - Investigate patterns in study performance over time, identifying peaks or declines in efficiency.
-   - Assess how study habits change on workout vs. non-workout days.
-
----
 
 ## **Example Analysis**
 To illustrate, I’ll create a scatter plot to visualize the relationship between **exercise intensity and focus levels**. The x-axis will represent exercise intensity (Low, Medium, High), while the y-axis will show self-rated focus levels (1-10). If a clear upward trend appears, it might suggest that more intense workouts help sustain better concentration.
@@ -106,6 +73,6 @@ By the end of this project, I hope to answer the following questions:
 - Can I **predict academic performance based on exercise habits?**  
 - How do **focus levels change with different workout intensities?**  
 
-This project isn’t just about improving my study routine—it’s about leveraging data science to develop an **evidence-based approach to learning and fitness**.
+This project isn’t just about improving my study routine—it’s about leveraging data science to develop an **evidence-based approach to learning and yoga**.
 
 ---
