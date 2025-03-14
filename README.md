@@ -1,122 +1,47 @@
-# The Impact of Dressing Formally on Study Productivity
+# The Cost of My Screen Time – Does More Screen Time Mean More Spending?
 
-## **Project Idea**
-This project aims to analyze how **dressing formally vs. casually affects study productivity and academic performance**. By tracking **clothing type, study hours, focus levels, and productivity**, I will determine whether professional attire enhances cognitive performance.
+## Project Idea
+This project analyzes the relationship between screen time and spending habits, specifically whether longer phone usage leads to higher spending. Many people spend hours on their phones daily, often switching between social media, shopping apps, and entertainment platforms. This study seeks to determine whether digital habits influence financial behavior by tracking daily phone usage and purchase patterns.
 
-The goal is to identify correlations between **what we wear and how effectively we study**, ultimately providing **data-driven insights** into whether dressing formally improves motivation and focus.
-
----
-
-## **Description of Dataset**
-I will track the following variables daily for several weeks:
-
-- **Date**: The specific day of the record  
-- **Clothing Type**: Formal (e.g., business attire) or Casual (e.g., pajamas, loungewear)  
-- **Study Hours**: Total time spent studying that day  
-- **Focus Level (1-10)**: Self-rated concentration level  
-- **Productivity (%)**: Measured based on study completion or comprehension  
-- **Confidence Level (1-10)**: Self-rated confidence level when studying in different attire  
-- **Study Task Type**: Logical (math, coding) vs. Creative (writing, brainstorming)  
-
-### **Additional Factors to Track**
-- **Study session timing**: Morning, afternoon, or evening  
-- **Self-Perception**: Mood and motivation level while studying  
-- **Long-Term Academic Impact**: Compare exam performance over time  
-
----
-
-## **Plan**
-### **📌 Data Collection**
-- Data will be collected daily for multiple weeks.  
-- Focus will be on tracking **consistent study habits** while changing clothing types.  
-- Outliers caused by illness, distractions, or major schedule changes will be flagged.  
-
-### **📊 Data Preparation & Analysis**
-At the end of the data collection period:
-1. **Data Cleaning:**
-   - Convert categorical variables (clothing type, task type) into numerical labels.
-   - Handle missing values and standardize data formats.
-
-2. **Exploratory Data Analysis (EDA):**
-   - Identify trends using statistical methods and visualization techniques.
-   - Examples:
-     - Scatter plot: **Clothing Type vs. Focus Levels**
-     - Heatmap: **Correlation between attire and study performance**
-     - Time series plot: **Study productivity trends over time**
-
-3. **Hypothesis Testing:**
-   - **H₀**: Clothing type has no significant effect on study productivity and focus.
-   - **H₁**: Dressing formally improves study efficiency and cognitive performance.
-   - Conduct **statistical tests** (t-tests, regression analysis) to validate findings.
-
-4. **Trend Analysis & Predictive Modeling:**
-   - Investigate **patterns over time**.
-   - Build a regression model to predict **study performance based on attire**.
-   - Use clustering techniques to find the **optimal study dress code**.
-
----
-
-## **Hypothesis**
-- **Why do I expect formal clothing to improve study productivity?**
-  - Psychological studies suggest that **attire influences confidence, discipline, and motivation**.
-  - Wearing formal clothing might trigger a **"work mindset," leading to better focus**.
-  - Casual clothing could promote **comfort but reduce productivity**, especially for deep-focus tasks.
-
----
-
-## **Methods**
-### **Data Collection**
-Data will be collected daily, including:
-- **Clothing Type** (Formal vs. Casual)
-- **Study hours, focus ratings, and productivity metrics** (logged manually)
-- **Confidence levels and self-perception** (to measure psychological effects)
-
-### **Data Processing**
-1. **Data Cleaning:**
-   - Convert date and time into appropriate formats.
-   - Standardize focus ratings and productivity metrics.
-
-2. **Feature Engineering:**
-   - Create new variables such as **"Attire Effect"** (difference in focus levels between clothing types).
-   - Categorize study type into **Logical Work vs. Creative Work**.
-
-3. **Visualization Techniques:**
-   - **Univariate Analysis**: Histograms for study hours, bar charts for clothing type.
-   - **Bivariate Analysis**: Scatter plots to analyze relationships between focus and attire.
-   - **Multivariate Analysis**: Heatmaps showing correlations between study performance and dress code.
-
-4. **Machine Learning Models:**
-   - **Regression Models**: Predict how clothing type impacts focus and productivity.
-   - **Clustering**: Identify optimal study attire based on individual performance trends.
-
----
-
-## **Findings & Expected Insights**
-By analyzing this dataset, I expect to:
-- Determine **whether formal attire improves study efficiency**.
-- Identify **the best dress code for academic performance**.
-- Predict **how self-perception influences focus levels**.
-- Evaluate **whether casual clothing hinders deep work tasks**.
-
----
-
-## **Limitations**
-While this project aims to provide valuable insights, there are potential challenges:
-- **Self-Reported Data**: Focus levels and study efficiency are subjective and may be inconsistent.
-- **Short Study Period**: A few weeks may not be enough to track long-term academic improvements.
-- **External Factors**: Other variables (sleep, stress, distractions) may also influence study performance but are not controlled in this analysis.
-
----
+## Description of Dataset
+- **Total Screen Time (hrs):** The total daily phone usage recorded from Digital Wellbeing (Android) or Screen Time (iOS).
+- **Time on Shopping Apps (mins):** Time spent on apps like Amazon, eBay, and food delivery services.
+- **Time on Social Media (mins):** Time spent on Instagram, TikTok, YouTube, and other platforms.
+- **Money Spent ($):** The total amount spent online each day (bank transaction logs).
+- **Purchase Type:** Whether the expense was on shopping, food delivery, entertainment, or subscriptions.
+- **Time of Purchase:** When the spending occurred (morning, afternoon, evening, or late night).
+- **Ad Exposure Before Purchase:** Whether an online ad appeared before making a purchase (Yes/No).
 
 
+## Plan
+### Data Collection
+- Data will be collected over several weeks, maintaining:
+  - Consistent tracking of daily screen time and spending.
+  - Detailed categorization of purchases and app usage.
+  - Regular recording to ensure accurate data collection.
+
+### Data Sources
+- **Phone Screen Time Data:** Collected from iOS Screen Time or Android Digital Wellbeing.
+- **Spending Data:** Collected from bank transactions and app order histories.
+- **Ad Tracking:** Logged manually before major purchases.
+
+To ensure consistency and minimize bias:
+- Data will be recorded daily at the end of each day.
+- Unusual spending (e.g., gifts, one-time large purchases) will be flagged.
+- External factors (sales events, holidays, etc.) will be considered.
 
 
-## **Conclusion**
-This project will provide insights into how **dressing formally vs. casually influences study productivity and academic performance**. Key takeaways will include:
-- **Do students focus better in formal attire?**
-- **Is there an optimal dress code for studying?**
-- **How does self-perception influence motivation and discipline?**
+## Data Preparation and Analysis
+### Data Cleaning
+- Convert date and time formats to standard datetime objects.
+- Remove outliers (one-time large purchases that may skew results).
+- Apply categorization encoding for purchase types and time of purchase.
 
-By leveraging data science, this project will contribute to a **research-backed approach** for optimizing study habits through attire.
+### Exploratory Data Analysis (EDA)
+- Histograms for total screen time and spending distribution.
+- Boxplots to visualize spending trends across different time periods.
+- Scatter plots to observe potential correlations between screen time and money spent.
 
-
+### Hypothesis Testing
+- **Null Hypothesis (H₀):** Screen time does not significantly impact spending behavior.
+- **Alternative Hypothesis (H₁):** More screen time leads to higher spending.
