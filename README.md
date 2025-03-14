@@ -1,6 +1,6 @@
 # The Cost of My Screen Time – Does More Screen Time Mean More Spending?
 
-## Project Idea and My Motivation Behind This Project
+## Project Idea and Motivation Behind This Project
 
 This project analyzes the relationship between screen time and spending habits, specifically whether longer phone usage leads to higher spending. Many people spend hours on their phones daily, often switching between social media, shopping apps, and entertainment platforms. This study seeks to determine whether digital habits influence financial behavior by tracking daily phone usage and purchase patterns.
 
