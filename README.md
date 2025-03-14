@@ -12,11 +12,17 @@ The insights from this project could help in understanding how digital habits co
 
 ## Description of Dataset
 - **Total Screen Time (hrs):** The total daily phone usage recorded from Digital Wellbeing (Android) or Screen Time (iOS).
+  
 - **Time on Shopping Apps (mins):** Time spent on apps like Amazon, eBay, and food delivery services.
+  
 - **Time on Social Media (mins):** Time spent on Instagram, TikTok, YouTube, and other platforms.
+  
 - **Money Spent ($):** The total amount spent online each day (bank transaction logs).
+  
 - **Purchase Type:** Whether the expense was on shopping, food delivery, entertainment, or subscriptions.
+  
 - **Time of Purchase:** When the spending occurred (morning, afternoon, evening, or late night).
+  
 - **Ad Exposure Before Purchase:** Whether an online ad appeared before making a purchase (Yes/No).
 
 
@@ -55,13 +61,17 @@ To ensure consistency and minimize bias:
 ### Data Cleaning
 
 - Convert date and time formats to standard datetime objects.
+  
 - Remove outliers (one-time large purchases that may skew results).
+  
 - Apply categorization encoding for purchase types and time of purchase.
 
 ### Exploratory Data Analysis (EDA)
 
 - Histograms for total screen time and spending distribution.
+  
 - Boxplots to visualize spending trends across different time periods.
+  
 - Scatter plots to observe potential correlations between screen time and money spent.
 
 ### Hypothesis Testing
