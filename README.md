@@ -38,7 +38,7 @@ For this project, I am collecting my own personal data over a period of several 
 
 - Time of Purchase: Categorized as morning, afternoon, evening, or late night to check if purchases are more frequent at specific times.
 
-- By combining these data points, I aim to analyze whether more screen time leads to higher spending, identify patterns in my digital habits, and understand if reducing screen time can help manage spending behavior.
+I’ll log all of this daily in an Excel file, ensuring consistent and accurate data collection.By combining these data points, I aim to analyze whether more screen time leads to higher spending, identify patterns in my digital habits, and understand if reducing screen time can help manage spending behavior.
 
 ### Data Sources
 
