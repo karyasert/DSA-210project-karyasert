@@ -81,4 +81,4 @@ To ensure consistency and minimize bias:
   
 - **Alternative Hypothesis (H₁):** More screen time leads to higher spending.
 
-I will test these hypothesis and with the I collected over time I will conduct result based on my project.
+I will test these hypothesis and with the data I collected over time I will conduct result based on my project in the next steps.
