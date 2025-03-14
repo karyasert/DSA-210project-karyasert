@@ -24,34 +24,48 @@ The insights from this project could help in understanding how digital habits co
 ### Data Collection
 For this project, I am collecting my own personal data over a period of several weeks. The data sources include:
 
--Phone Usage Data: Collected using Digital Wellbeing (Android) / Screen Time (iOS) to track my total screen time, app usage, and time spent on shopping and social media apps.
--Spending Data: Logged daily from bank transactions and order receipts to record the amount spent, type of purchase, and time of purchase.
--Ad Exposure Tracking: Manually recorded when I see an advertisement before making a purchase to analyze whether ads influence my spending behavior.
--Time of Purchase: Categorized as morning, afternoon, evening, or late night to check if purchases are more frequent at specific times.
--By combining these data points, I aim to analyze whether more screen time leads to higher spending, identify patterns in my digital habits, and understand if reducing screen time can help manage spending behavior.
+- Phone Usage Data: Collected using Digital Wellbeing (Android) / Screen Time (iOS) to track my total screen time, app usage, and time spent on shopping and social media apps.
+
+- Spending Data: Logged daily from bank transactions and order receipts to record the amount spent, type of purchase, and time of purchase.
+
+- Ad Exposure Tracking: Manually recorded when I see an advertisement before making a purchase to analyze whether ads influence my spending behavior.
+
+- Time of Purchase: Categorized as morning, afternoon, evening, or late night to check if purchases are more frequent at specific times.
+
+- By combining these data points, I aim to analyze whether more screen time leads to higher spending, identify patterns in my digital habits, and understand if reducing screen time can help manage spending behavior.
 
 ### Data Sources
 - **Phone Screen Time Data:** Collected from iOS Screen Time or Android Digital Wellbeing.
+  
 - **Spending Data:** Collected from bank transactions and app order histories.
+  
 - **Ad Tracking:** Logged manually before major purchases.
 
 To ensure consistency and minimize bias:
+
 - Data will be recorded daily at the end of each day.
+  
 - Unusual spending (e.g., gifts, one-time large purchases) will be flagged.
+  
 - External factors (sales events, holidays, etc.) will be considered.
 
 
 ## Data Preparation and Analysis
+
 ### Data Cleaning
+
 - Convert date and time formats to standard datetime objects.
 - Remove outliers (one-time large purchases that may skew results).
 - Apply categorization encoding for purchase types and time of purchase.
 
 ### Exploratory Data Analysis (EDA)
+
 - Histograms for total screen time and spending distribution.
 - Boxplots to visualize spending trends across different time periods.
 - Scatter plots to observe potential correlations between screen time and money spent.
 
 ### Hypothesis Testing
+
 - **Null Hypothesis (H₀):** Screen time does not significantly impact spending behavior.
+  
 - **Alternative Hypothesis (H₁):** More screen time leads to higher spending.
