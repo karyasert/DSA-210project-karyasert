@@ -17,7 +17,7 @@ The insights from this project could help in understanding how digital habits co
   
 - **Time on Social Media (mins):** Time spent on Instagram, TikTok, YouTube, and other social media platforms.
   
-- **Money Spent ($):** The total amount spent online each day (bank transaction logs).
+- **Money Spent (TL):** The total amount spent online each day.
   
 - **Purchase Type:** Whether the expense was on shopping, food delivery, entertainment, or subscriptions.
   
