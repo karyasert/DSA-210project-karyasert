@@ -80,3 +80,5 @@ To ensure consistency and minimize bias:
 - **Null Hypothesis (H₀):** Screen time does not significantly impact spending behavior.
   
 - **Alternative Hypothesis (H₁):** More screen time leads to higher spending.
+
+I will test these hypothesis and with the I collected over time I will conduct result based on my project.
