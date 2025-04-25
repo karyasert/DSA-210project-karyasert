@@ -42,7 +42,7 @@ I’ll log all of this daily in an Excel file, ensuring consistent and accurate 
 
 ### Data Sources
 
-- **Phone Screen Time Data:** Collected from iOS Screen Time or Android Digital Wellbeing.
+- **Phone Screen Time Data:** Collected from iOS Screen Time .
   
 - **Spending Data:** Collected from bank transactions and app order histories.
   
@@ -104,51 +104,47 @@ A slight increase in average spending was observed when ad exposure was present.
 
 ### Bivariate Analysis
 
-Screen Time vs. Money Spent:
+ Screen Time vs. Money Spent:
   A scatter plot revealed a moderate positive correlation between screen time and spending.
   Pearson correlation coefficient: 0.36P-value: 0.0113 -> Statistically significant at α = 0.05.
 
-Time of Purchase vs. Spending:
+ Time of Purchase vs. Spending:
   A boxplot showed nighttime purchases had the highest median and maximum spending.
   Morning and afternoon purchases were lower and more consistent in amount.
 
-Purchase Type vs. Screen Time:
+ Purchase Type vs. Screen Time:
   Focused analysis on "Shopping" purchases revealed a moderate correlation with screen time.
 
-This suggests shopping screen time  may play a bigger role in influencing purchases.
+ This suggests shopping screen time  may play a bigger role in influencing purchases.
 
 ### Multivariate Insights
 
   -Purchase Context (Ad Exposure + Time of Purchase):
-
-    -Combining both variables showed that ad exposure at night led to the highest spending peaks.
-
-    This context indicates impulsive behavior influenced by digital marketing during relaxed hours.
+      Combining both variables showed that ad exposure at night led to the highest spending peaks. This context indicates impulsive         behavior influenced by digital marketing during relaxed hours.
 
 
-### Findings
+## Findings
 
-There is a statistically significant positive relationship between phone screen time and money spent.
-Ad exposure and late-night usage tend to amplify spending behavior.
-Shopping app usage showed less direct impact than expected, indicating a broader influence from overall screen engagement (social media, content platforms).
-Purchases made at night were consistently higher in amount, suggesting possible impulsivity or decision fatigue.
+  There is a statistically significant positive relationship between phone screen time and money spent.
+  Ad exposure and late-night usage tend to amplify spending behavior. Also among the purchase type categories Shopping, Beverage,Food   and Market Deliveries; shopping has the highest correlation coefficient with the smalest p-value eventhough it is 0.0566.
+  Purchases made at night were consistently higher in amount, suggesting possible impulsivity or decision fatigue.
 
- ### Limitations
+ ## Limitations
 
-Self-reported data introduces potential bias or recording errors, especially for ad exposure and time of purchase.
-Sample size was limited to ~49 daily entries, making it difficult to generalize findings to wider populations.
-No demographic variation — data is based on one individual’s behavior.
+  Self-reported data introduces potential bias or recording errors, especially for ad exposure and time of purchase.
+  Sample size was limited to ~49 daily entries, making it difficult to generalize findings to wider populations.
+  No demographic variation — data is based on one individual’s behavior.
 
-### Future Work
+## Future Work
 
--Incorporate automated data extraction from device screen reports and online banking.
-
--Track purchase purpose and emotional state to understand motivational factors.
-
--Include notifications, scrolling patterns, or ad content types for richer behavior modeling.
+  -Incorporate automated data extraction from device screen reports and online banking.
+  
+  -Track purchase purpose and emotional state to understand motivational factors.
+  
+  -Include notifications, scrolling patterns, or ad content types for richer behavior modeling.
 
 ## Conclusion
 
 The hypothesis was supported by the data: increased screen time is associated with higher spending, especially when combined with ad exposure and evening or nighttime phone use.
 
-This project demonstrates how personal digital habits can be linked to financial behavior and offers insight into the subtle ways that attention, advertising, and time of day affect our decisions but with awareness, we can intervene.
+Although it was a problem of mine, this is a 21. century issue becoming more and more serious.This project demonstrates how personal digital habits can be linked to financial behavior and offers insight into the subtle ways that attention, advertising, and time of day affect our decisions but with awareness, we can intervene. I was very curious about my spending habits because of the online purchases I made and this project became and eye opener to my own habits.
