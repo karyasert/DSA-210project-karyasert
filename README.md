@@ -85,9 +85,9 @@ I will test these hypothesis and with the data I collected over time I will cond
 
 
 
-###Results of the Analysis
+### Results of the Analysis
 
-##1. Univariate Analysis
+## 1. Univariate Analysis
 
 Total Screen Time:
 A histogram revealed a fairly normal distribution, with most daily screen time falling between 180–300 minutes.
