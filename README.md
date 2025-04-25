@@ -85,25 +85,20 @@ I will test these hypothesis and with the data I collected over time I will cond
 
 
 
-Results of the Analysis
+###Results of the Analysis
 
-1. Univariate Analysis
+##1. Univariate Analysis
 
 Total Screen Time:
-
 A histogram revealed a fairly normal distribution, with most daily screen time falling between 180–300 minutes.
-
 Outliers at the higher end (300+ mins) suggest occasional intensive phone use.
 
 Money Spent (TL):
-
-A histogram showed a right-skewed distribution with a small number of high-spending days.
-
-The average daily spending was ₺581, with a maximum of ₺2866.
+   - A histogram showed a right-skewed distribution with a small number of high-spending days.
+   - The average daily spending was ₺581, with a maximum of ₺2866.
 
 Ad Exposure:
-
-Users were exposed to ads in about 45% of recorded days.
+  Users were exposed to ads in about 45% of recorded days.
 
 A slight increase in average spending was observed when ad exposure was present.
 
