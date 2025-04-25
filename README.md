@@ -85,44 +85,39 @@ I will test these hypothesis and with the data I collected over time I will cond
 
 
 
-### Results of the Analysis
+## Results of the Analysis
 
-## 1. Univariate Analysis
+### Univariate Analysis
 
-Total Screen Time:
+- Total Screen Time:
 A histogram revealed a fairly normal distribution, with most daily screen time falling between 180–300 minutes.
 Outliers at the higher end (300+ mins) suggest occasional intensive phone use.
 
-Money Spent (TL):
+- Money Spent (TL):
    - A histogram showed a right-skewed distribution with a small number of high-spending days.
    - The average daily spending was ₺581, with a maximum of ₺2866.
 
-Ad Exposure:
+- Ad Exposure:
   Users were exposed to ads in about 45% of recorded days.
 
 A slight increase in average spending was observed when ad exposure was present.
 
-2. Bivariate Analysis
+### Bivariate Analysis
 
 Screen Time vs. Money Spent:
-
-A scatter plot revealed a moderate positive correlation between screen time and spending.
-
-Pearson correlation coefficient: 0.36P-value: 0.0113→ Statistically significant at α = 0.05.
+  A scatter plot revealed a moderate positive correlation between screen time and spending.
+  Pearson correlation coefficient: 0.36P-value: 0.0113 -> Statistically significant at α = 0.05.
 
 Time of Purchase vs. Spending:
-
-A boxplot showed nighttime purchases had the highest median and maximum spending.
-
-Morning and afternoon purchases were lower and more consistent in amount.
+  A boxplot showed nighttime purchases had the highest median and maximum spending.
+  Morning and afternoon purchases were lower and more consistent in amount.
 
 Purchase Type vs. Screen Time:
-
-Focused analysis on "Shopping" purchases revealed no significant correlation with screen time.
+  Focused analysis on "Shopping" purchases revealed no significant correlation with screen time.
 
 This suggests non-shopping screen time (e.g., social media) may play a bigger role in influencing purchases.
 
-3. Multivariate Insights
+### Multivariate Insights
 
 Purchase Context (Ad Exposure + Time of Purchase):
 
@@ -131,36 +126,27 @@ Combining both variables showed that ad exposure at night led to the highest spe
 This context indicates impulsive behavior influenced by digital marketing during relaxed hours.
 
 
-4. Findings
+### Findings
 
 There is a statistically significant positive relationship between phone screen time and money spent.
-
 Ad exposure and late-night usage tend to amplify spending behavior.
-
 Shopping app usage showed less direct impact than expected, indicating a broader influence from overall screen engagement (social media, content platforms).
-
 Purchases made at night were consistently higher in amount, suggesting possible impulsivity or decision fatigue.
 
-5. Limitations
+ ### Limitations
 
 Self-reported data introduces potential bias or recording errors, especially for ad exposure and time of purchase.
-
 Sample size was limited to ~49 daily entries, making it difficult to generalize findings to wider populations.
-
 No demographic variation — data is based on one individual’s behavior.
 
-6. Future Work
+### Future Work
 
-Incorporate automated data extraction from device screen reports and online banking.
+-Incorporate automated data extraction from device screen reports and online banking.
+-Track purchase purpose and emotional state to understand motivational factors.
+-Include notifications, scrolling patterns, or ad content types for richer behavior modeling.
 
-Track purchase purpose and emotional state to understand motivational factors.
-
-Include notifications, scrolling patterns, or ad content types for richer behavior modeling.
-
-7. Conclusion
+## Conclusion
 
 The hypothesis was supported by the data: increased screen time is associated with higher spending, especially when combined with ad exposure and evening or nighttime phone use.
 
-This project demonstrates how personal digital habits can be linked to financial behavior and offers insight into the subtle ways that attention, advertising, and time of day affect our decisions.
-
-📱 + 🛒 = 💸 … but with awareness, we can intervene.
+This project demonstrates how personal digital habits can be linked to financial behavior and offers insight into the subtle ways that attention, advertising, and time of day affect our decisions but with awareness, we can intervene.
