@@ -142,7 +142,9 @@ No demographic variation — data is based on one individual’s behavior.
 ### Future Work
 
 -Incorporate automated data extraction from device screen reports and online banking.
+
 -Track purchase purpose and emotional state to understand motivational factors.
+
 -Include notifications, scrolling patterns, or ad content types for richer behavior modeling.
 
 ## Conclusion
