@@ -125,7 +125,7 @@ A slight increase in average spending was observed when ad exposure was present.
 
 ## Findings
 
-  There is a statistically significant positive relationship between phone screen time and money spent.
+  There is a statistically significant positive relationship between phone screen time and money spent, in other words it is            concluded that we can reject the null hypothesis .
   Ad exposure and late-night usage tend to amplify spending behavior. Also among the purchase type categories Shopping, Beverage,Food   and Market Deliveries; shopping has the highest correlation coefficient with the smalest p-value( which can be seen on the python     file).
   Purchases made at night were consistently higher in amount, suggesting possible impulsivity or decision fatigue.
 
