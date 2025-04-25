@@ -19,7 +19,7 @@ The insights from this project could help in understanding how digital habits co
   
 - **Money Spent (TL):** The total amount spent online each day.
   
-- **Purchase Type:** Whether the expense was on shopping, food delivery, entertainment, or subscriptions.
+- **Purchase Type:** Whether the expense was on shopping, market delivery, food, or beverages.
   
 - **Time of Purchase:** When the spending occurred will be divided in 4 sections (morning, afternoon, evening, or late night).
   
@@ -126,7 +126,7 @@ A slight increase in average spending was observed when ad exposure was present.
 ## Findings
 
   There is a statistically significant positive relationship between phone screen time and money spent.
-  Ad exposure and late-night usage tend to amplify spending behavior. Also among the purchase type categories Shopping, Beverage,Food   and Market Deliveries; shopping has the highest correlation coefficient with the smalest p-value eventhough it is 0.0566.
+  Ad exposure and late-night usage tend to amplify spending behavior. Also among the purchase type categories Shopping, Beverage,Food   and Market Deliveries; shopping has the highest correlation coefficient with the smalest p-value( which can be seen on the python     file).
   Purchases made at night were consistently higher in amount, suggesting possible impulsivity or decision fatigue.
 
  ## Limitations
