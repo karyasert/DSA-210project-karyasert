@@ -113,17 +113,17 @@ Time of Purchase vs. Spending:
   Morning and afternoon purchases were lower and more consistent in amount.
 
 Purchase Type vs. Screen Time:
-  Focused analysis on "Shopping" purchases revealed no significant correlation with screen time.
+  Focused analysis on "Shopping" purchases revealed a moderate correlation with screen time.
 
-This suggests non-shopping screen time (e.g., social media) may play a bigger role in influencing purchases.
+This suggests shopping screen time  may play a bigger role in influencing purchases.
 
 ### Multivariate Insights
 
-Purchase Context (Ad Exposure + Time of Purchase):
+  -Purchase Context (Ad Exposure + Time of Purchase):
 
-Combining both variables showed that ad exposure at night led to the highest spending peaks.
+    -Combining both variables showed that ad exposure at night led to the highest spending peaks.
 
-This context indicates impulsive behavior influenced by digital marketing during relaxed hours.
+    This context indicates impulsive behavior influenced by digital marketing during relaxed hours.
 
 
 ### Findings
