@@ -141,6 +141,79 @@ A slight increase in average spending was observed when ad exposure was present.
   -Incorporate automated data extraction from device screen reports and online banking.
   
   -For the Machine Learning part I will log in more data to enrich my data set.I will also be doing different ML methods and compare each of them before finding the best model.
+
+## Machine Learning
+  Machine Learning Analysis
+
+This section applies machine learning classification models to predict the Purchase Type based on digital usage behavior and contextual features.
+
+Objective
+Classify each spending instance into one of the following categories:
+
+Beverage
+Food
+Market Delivery
+Shopping
+Features Used
+The models are trained on the following input features:
+
+Total Screen Time of Phone (mins)
+Time on Shopping Apps (mins)
+Time on Social Media (mins)
+Ad Exposure Before Purchase (Yes/No)
+Spending Rate
+Is_Weekend
+One-hot encoded: Time of Purchase (morning, evening, night)
+Models Implemented
+Logistic Regression
+Random Forest Classifier
+Data Splitting
+The dataset was split into training and testing sets using an 80/20 ratio.
+Stratified sampling was applied to preserve the distribution of the target variable (Purchase Type).
+Evaluation Metrics
+Model performance was evaluated using:
+
+Accuracy
+F1 Score (Weighted Average)
+F1 Score (Macro Average)
+These metrics account for class imbalance and provide insight into both overall and per-class performance.
+
+Results Summary
+Model	Accuracy	F1 Score (Weighted)	F1 Score (Macro)
+Logistic Regression	0.86	0.82	0.69
+Random Forest	0.67	0.67	0.56
+Classification Reports
+Logistic Regression
+
+Accuracy: 0.8571
+F1 Score (weighted): 0.8161
+
+Precision    Recall    F1-score   Support
+   0         1.00       1.00       1.00        4
+   1         0.77       1.00       0.87       10
+   2         0.00       0.00       0.00        2
+   3         1.00       0.80       0.89        5
+
+Macro avg    0.69       0.70       0.69       21
+Weighted avg 0.79       0.86       0.82       21
+Random Forest
+
+Accuracy: 0.6667
+F1 Score (weighted): 0.6719
+
+Precision    Recall    F1-score   Support
+   0         0.60       0.75       0.67        4
+   1         0.70       0.70       0.70       10
+   2         0.00       0.00       0.00        2
+   3         1.00       0.80       0.89        5
+
+Macro avg    0.57       0.56       0.56       21
+Weighted avg 0.69       0.67       0.67       21
+Interpretation
+Logistic Regression consistently outperformed Random Forest across all metrics.
+Logistic Regression achieved a higher overall accuracy (0.86 vs 0.67) and better balance across classes, particularly underrepresented ones.
+Both models struggled with class 2 (Market Delivery), likely due to sample imbalance.
+The final model selected for reporting and interpretation is Logistic Regression due to its superior performance and interpretability.
 ## Conclusion
 
 The hypothesis was supported by the data: increased screen time is associated with higher spending, especially when combined with ad exposure and evening or nighttime phone use.
