@@ -133,7 +133,7 @@ A slight increase in average spending was observed when ad exposure was present.
  ## Limitations
 
   Self-reported data introduces potential bias or recording errors, especially for ad exposure and time of purchase.
-  Sample size was limited to ~101 daily entries, making it difficult to generalize findings to wider populations.
+  Sample size was limited to ~102 daily entries(it was nearly 60 before machine learning part,now it is updated to 102), making it difficult to generalize findings to wider populations.
   No demographic variation — data is based on one individual’s behavior.
 
 ## Future Work
