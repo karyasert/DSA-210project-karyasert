@@ -154,6 +154,10 @@ Beverage
 Food
 Market Delivery
 Shopping
+
+
+
+
 Features Used
 
 
@@ -165,6 +169,10 @@ Time on Social Media (mins)
 Ad Exposure Before Purchase (Yes/No)
 Spending Rate
 Is_Weekend
+
+
+
+
 One-hot encoded: Time of Purchase (morning, evening, night)
 Models Implemented
 Logistic Regression
