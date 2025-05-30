@@ -155,6 +155,8 @@ Food
 Market Delivery
 Shopping
 Features Used
+
+
 The models are trained on the following input features:
 
 Total Screen Time of Phone (mins)
@@ -168,9 +170,13 @@ Models Implemented
 Logistic Regression
 Random Forest Classifier
 Data Splitting
+
+
 The dataset was split into training and testing sets using an 80/20 ratio.
 Stratified sampling was applied to preserve the distribution of the target variable (Purchase Type).
 Evaluation Metrics
+
+
 Model performance was evaluated using:
 
 Accuracy
