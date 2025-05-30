@@ -106,7 +106,8 @@ A slight increase in average spending was observed when ad exposure was present.
 
  Screen Time vs. Money Spent:
   A scatter plot revealed a moderate positive correlation between screen time and spending.
-  Pearson correlation coefficient: 0.36P-value: 0.0113 -> Statistically significant at α = 0.05.
+  Pearson correlation coefficient: 0.33
+  P-value: 0.0007-> Statistically significant at α = 0.05.
 
  Time of Purchase vs. Spending:
   A boxplot showed nighttime purchases had the highest median and maximum spending.
@@ -120,7 +121,7 @@ A slight increase in average spending was observed when ad exposure was present.
 ### Multivariate Insights
 
   -Purchase Context (Ad Exposure + Time of Purchase):
-      Combining both variables showed that ad exposure at night led to the highest spending peaks. This context indicates impulsive         behavior influenced by digital marketing during relaxed hours.
+      Combining both variables showed that ad exposure at night led to the highest spending peaks. This context indicates impulsive behavior influenced by digital marketing during relaxed hours.
 
 
 ## Findings
@@ -132,17 +133,14 @@ A slight increase in average spending was observed when ad exposure was present.
  ## Limitations
 
   Self-reported data introduces potential bias or recording errors, especially for ad exposure and time of purchase.
-  Sample size was limited to ~49 daily entries, making it difficult to generalize findings to wider populations.
+  Sample size was limited to ~101 daily entries, making it difficult to generalize findings to wider populations.
   No demographic variation — data is based on one individual’s behavior.
 
 ## Future Work
 
   -Incorporate automated data extraction from device screen reports and online banking.
   
-  -Track purchase purpose and emotional state to understand motivational factors.
-  
-  -Include notifications, scrolling patterns, or ad content types for richer behavior modeling.
-
+  -For the Machine Learning part I will log in more data to enrich my data set.I will also be doing different ML methods and compare each of them before finding the best model.
 ## Conclusion
 
 The hypothesis was supported by the data: increased screen time is associated with higher spending, especially when combined with ad exposure and evening or nighttime phone use.
