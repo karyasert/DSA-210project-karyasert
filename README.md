@@ -194,27 +194,7 @@ Logistic Regression
 Accuracy: 0.8571
 F1 Score (weighted): 0.8161
 
-Precision    Recall    F1-score   Support
-   0         1.00       1.00       1.00        4
-   1         0.77       1.00       0.87       10
-   2         0.00       0.00       0.00        2
-   3         1.00       0.80       0.89        5
 
-Macro avg    0.69       0.70       0.69       21
-Weighted avg 0.79       0.86       0.82       21
-Random Forest
-
-Accuracy: 0.6667
-F1 Score (weighted): 0.6719
-
-Precision    Recall    F1-score   Support
-   0         0.60       0.75       0.67        4
-   1         0.70       0.70       0.70       10
-   2         0.00       0.00       0.00        2
-   3         1.00       0.80       0.89        5
-
-Macro avg    0.57       0.56       0.56       21
-Weighted avg 0.69       0.67       0.67       21
 Interpretation
 Logistic Regression consistently outperformed Random Forest across all metrics.
 Logistic Regression achieved a higher overall accuracy (0.86 vs 0.67) and better balance across classes, particularly underrepresented ones.
